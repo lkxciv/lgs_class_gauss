@@ -165,7 +165,7 @@ std::string LGS::ToString()
 
 bool LGS::IsSolutionPoint()
 {
-	//Prüfen ob es überhaupt lösenbar ist
+	//Prüfen, ob es überhaupt lösenbar ist
 	if (varsize > eqsize)
 	{
 		return 0;
