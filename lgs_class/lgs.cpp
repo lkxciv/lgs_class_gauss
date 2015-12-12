@@ -39,7 +39,7 @@ public:
 //methodendefinitionen von LGS
 
 //Anzahl der Variablen und Gleichungen sind gefordert
-//wichtig: wert an Adresse sollte von aussen nicht verändert werden
+//wichtig: Wert an Adresse sollte von aussen nicht verändert werden
 LGS::LGS(int variable_num, int equation_num, float **matrix)
 {
 	//Variablen einstellen
