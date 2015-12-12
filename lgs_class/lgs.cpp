@@ -20,7 +20,7 @@ public:
 	//Returnt gelöstes LGS in Stufenform
 	LGS Ref();
 
-	//Return LGS in vollständig gelöster Version, MUSS mit LGS in REF Form aufgerufen werden
+	//Returnt LGS in vollständig gelöster Version, MUSS mit LGS in REF Form aufgerufen werden
 	LGS OnlyRRef();
 
 	//Returnt direkt von Normalform zu Ergebnisform
