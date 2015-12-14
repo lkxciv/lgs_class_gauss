@@ -33,6 +33,7 @@ public:
 	bool IsSolutionPoint();
 
 	//returnt Lösung in dyn. Float array, Länge ist varsize - 1
+	//später Löschen nicht vergessen!
 	float *GetSolution();
 };
 
@@ -55,6 +56,7 @@ LGS::~LGS()
 {
 	for (int y = 0; y <= eqsize; y++)
 	{
+		//Horizontale Arrays werden durch Vertikalen Durchlauf gelöscht
 		delete[] lgs[y];
 	}
 }
